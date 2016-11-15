@@ -1,15 +1,1 @@
-<%= form_for(@task) do |f| %>
-  <%= f.label :description %>
-  <%= f.text_field :description %>
-
-  <%= f.label :importance %>
-  <%= f.number_field :importance %>
-
-  <%= f.label :category %>
-  <%= f.text_field :category %>
-
-  <%= f.label :due_date %>
-  <%= f.date_field :due_date %>
-
-  <%= f.submit %>
-<% end %>
+<%= render "form" %>
