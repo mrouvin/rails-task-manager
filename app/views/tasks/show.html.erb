@@ -1,0 +1,7 @@
+<h1>Détail d'une tâche</h1>
+
+<h2>description : <%= @task[:description] %>, importance : <%= "*" * @task[:importance] %></h2>
+<p>categorie : <%= @task[:category] %>, échéance : <%= @task[:due_date] %></p>
+<%= link_to "Liste des tâches", tasks_path %>
+
+
